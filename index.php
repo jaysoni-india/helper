@@ -1,14 +1,15 @@
 <?php
 
-ini_set('display_errors', 'On');
+require_once __DIR__ . '/vendor/autoload.php';
 
-require_once __DIR__ . '/vendor/autoload.php'; // Autoload files using Composer autoload
+use Helper\MyFunctions as mf;
 
+//example of static function calling
+echo mf::index();
 
-use MyFunctions;
+//example of object;
+$obj = new mf();
 
-echo MyFunctions::index();
-
+echo $obj->add(1,3);
 
 ?>
-sfd

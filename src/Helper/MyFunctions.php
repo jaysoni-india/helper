@@ -9,4 +9,8 @@ class MyFunctions{
         return 1;
     }
 
+    public function add($a,$b){
+        return $a+$b;
+    }
+
 }

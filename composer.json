@@ -13,8 +13,8 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-3": {
-            "Helper": "src/"
+        "psr-4": {
+            "Helper\\": "src/Helper"
         }
     }
 }
