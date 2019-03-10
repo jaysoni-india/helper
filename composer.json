@@ -1,0 +1,14 @@
+{
+    "name": "thenethead/helper",
+    "description": "Some of PHP Helper Functions",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Jay Soni",
+            "email": "hi@jaysoni.info"
+        }
+    ]
+}
