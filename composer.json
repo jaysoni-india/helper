@@ -3,12 +3,18 @@
     "description": "Some of PHP Helper Functions",
     "type": "library",
     "require": {
-        "phpunit/phpunit": "^8.0"
+        "php": ">=7.1"
     },
     "authors": [
         {
             "name": "Jay Soni",
             "email": "hi@jaysoni.info"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-3": {
+            "Helper": "src/"
+        }
+    }
 }

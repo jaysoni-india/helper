@@ -1,6 +1,7 @@
 <?php 
 
-// namespace src;
+namespace Helper;
+
 class MyFunctions{
 
     public static function index(){
